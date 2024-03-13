@@ -9,7 +9,7 @@ DELPHIX_ADMIN="admin"
 # set this to the password for the Delphix admin user
 DELPHIX_PASS="P@ssw0rd123#"
 # set this to the object reference for the VDB
-VDB="VDBUAT4"
+VDB="VDBUAT5"
 #
 # create our session
 curl -s -X POST -k --data @- http://${DE}/resources/json/delphix/session \
